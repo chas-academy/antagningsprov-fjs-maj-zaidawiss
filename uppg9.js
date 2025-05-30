@@ -12,14 +12,15 @@ function uppg9 (){
     
     
 if (num %2 ===0){
-    console.log(num,"jämnt");
-}else{
+    console.log(num,"jämt");
+} else {
     console.log(num, "udda");
 }
-}}
+}
+  }
     // anropa funktionen och skicka med en array som argument
     const numbers = [2,5,7,8,18,33,67,999];
     sort(numbers);
+  }
 
-}
 module.exports = { uppg9 };
